@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="" />
+    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +41,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Django.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -58,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595703121544</updated>
       <workItem from="1595703128706" duration="64000" />
-      <workItem from="1595703241528" duration="301000" />
+      <workItem from="1595703241528" duration="637000" />
     </task>
     <servers />
   </component>
@@ -75,5 +88,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="110" key="FileChooserDialogImpl" timestamp="1595703399419">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="460" y="110" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1595703399419" />
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom" timestamp="1595703777186">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
+    <state width="1317" height="182" key="GridCell.Tab.0.center" timestamp="1595703777186">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1317" height="182" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
+    <state width="1317" height="182" key="GridCell.Tab.0.left" timestamp="1595703777186">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1317" height="182" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
+    <state width="1317" height="182" key="GridCell.Tab.0.right" timestamp="1595703777186">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
+    <state x="181" y="14" key="SettingsEditor" timestamp="1595704027978">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="181" y="14" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1595704027978" />
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595703929639">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1595703929639" />
+    <state x="510" y="160" key="svn.repositoryBrowser" timestamp="1595703377778">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="510" y="160" key="svn.repositoryBrowser/0.0.1360.738@0.0.1360.738" timestamp="1595703377778" />
   </component>
 </project>
