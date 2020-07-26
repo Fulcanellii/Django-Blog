@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
+    <expand />
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="register Post model in admin dashboard" />
+    <list id="c3201e0a-b89d-4106-9839-045676000022" name="Uncommitted changes before Update at 26.07.2020 1:53 [Revert &quot;register Post model in admin dashboard&quot;-3]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1fBt4M8BFdCMy35wt1VvpadT4Qu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
   </component>
   <component name="RunManager">
     <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
@@ -72,7 +75,16 @@
       <updated>1595703121544</updated>
       <workItem from="1595703128706" duration="64000" />
       <workItem from="1595703241528" duration="637000" />
+      <workItem from="1595744198560" duration="498000" />
     </task>
+    <task id="LOCAL-00001" summary="register Post model in admin dashboard">
+      <created>1595744441518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595744441518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,8 +100,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="register Post model in admin dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="register Post model in admin dashboard" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1176" height="554" key="DiffContextDialog" timestamp="1595744697707">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="92" y="92" width="1176" height="554" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1595744697707" />
     <state x="460" y="110" key="FileChooserDialogImpl" timestamp="1595703399419">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -110,14 +131,18 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
-    <state x="181" y="14" key="SettingsEditor" timestamp="1595704027978">
+    <state x="181" y="14" key="SettingsEditor" timestamp="1595744393661">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="181" y="14" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1595704027978" />
-    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595703929639">
+    <state x="181" y="14" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1595744393661" />
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595744443077">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1595703929639" />
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1595744443077" />
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595744333325">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1595744333325" />
     <state x="510" y="160" key="svn.repositoryBrowser" timestamp="1595703377778">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
