@@ -10,8 +10,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="detail post page">
-      <change afterPath="$PROJECT_DIR$/Django/templates/users/register.html" afterDir="false" />
+    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="user registration">
+      <change afterPath="$PROJECT_DIR$/Django/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/apps/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/apps/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/apps/users/views.py" afterDir="false" />
@@ -102,7 +102,7 @@
       <workItem from="1595703128706" duration="64000" />
       <workItem from="1595703241528" duration="637000" />
       <workItem from="1595744198560" duration="6644000" />
-      <workItem from="1595778168831" duration="1266000" />
+      <workItem from="1595778168831" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="register Post model in admin dashboard">
       <created>1595744441518</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595751127590</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="user registration">
+      <created>1595779597508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595779597508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +170,8 @@
     <MESSAGE value="render Posts on main page" />
     <MESSAGE value="login page" />
     <MESSAGE value="detail post page" />
-    <option name="LAST_COMMIT_MESSAGE" value="detail post page" />
+    <MESSAGE value="user registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="user registration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1176" height="554" key="DiffContextDialog" timestamp="1595744697707">
@@ -174,30 +182,30 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="460" y="110" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1595778350485" />
-    <state width="1317" height="182" key="GridCell.Tab.0.bottom" timestamp="1595778851646">
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom" timestamp="1595779945564">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
-    <state width="1317" height="182" key="GridCell.Tab.0.center" timestamp="1595778851646">
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1595779945564" />
+    <state width="1317" height="182" key="GridCell.Tab.0.center" timestamp="1595779945563">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
-    <state width="1317" height="182" key="GridCell.Tab.0.left" timestamp="1595778851646">
+    <state width="1317" height="182" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1595779945563" />
+    <state width="1317" height="182" key="GridCell.Tab.0.left" timestamp="1595779945563">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
-    <state width="1317" height="182" key="GridCell.Tab.0.right" timestamp="1595778851646">
+    <state width="1317" height="182" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1595779945563" />
+    <state width="1317" height="182" key="GridCell.Tab.0.right" timestamp="1595779945563">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
+    <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595779945563" />
     <state x="181" y="14" key="SettingsEditor" timestamp="1595744393661">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="181" y="14" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1595744393661" />
-    <state x="272" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595751129462">
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595779601060">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="102" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1595751129462" />
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1595779601060" />
     <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595744333325">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
