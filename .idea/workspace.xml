@@ -10,7 +10,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="register Post model in admin dashboard" />
+    <list default="true" id="b5ca3e22-8261-4368-a710-9553d1cf4276" name="Default Changelist" comment="detail post page">
+      <change afterPath="$PROJECT_DIR$/Django/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/apps/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/apps/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <list id="c3201e0a-b89d-4106-9839-045676000022" name="Uncommitted changes before Update at 26.07.2020 1:53 [Revert &quot;register Post model in admin dashboard&quot;-3]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +28,40 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1fBt4M8BFdCMy35wt1VvpadT4Qu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoreyMs" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Django\Django\apps" />
+      <recent name="C:\Users\User\PycharmProjects\Django\Django" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Django" type="Python.DjangoServer" factoryName="Django server">
@@ -75,7 +101,8 @@
       <updated>1595703121544</updated>
       <workItem from="1595703128706" duration="64000" />
       <workItem from="1595703241528" duration="637000" />
-      <workItem from="1595744198560" duration="498000" />
+      <workItem from="1595744198560" duration="6644000" />
+      <workItem from="1595778168831" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="register Post model in admin dashboard">
       <created>1595744441518</created>
@@ -84,7 +111,35 @@
       <option name="project" value="LOCAL" />
       <updated>1595744441518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main page">
+      <created>1595744776971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595744776971</updated>
+    </task>
+    <task id="LOCAL-00003" summary="render Posts on main page">
+      <created>1595745099915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595745099915</updated>
+    </task>
+    <task id="LOCAL-00004" summary="login page">
+      <created>1595750322810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595750322810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="detail post page">
+      <created>1595751127590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595751127590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,41 +159,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="register Post model in admin dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="register Post model in admin dashboard" />
+    <MESSAGE value="main page" />
+    <MESSAGE value="render Posts on main page" />
+    <MESSAGE value="login page" />
+    <MESSAGE value="detail post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="detail post page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1176" height="554" key="DiffContextDialog" timestamp="1595744697707">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="92" y="92" width="1176" height="554" key="DiffContextDialog/0.0.1360.738@0.0.1360.738" timestamp="1595744697707" />
-    <state x="460" y="110" key="FileChooserDialogImpl" timestamp="1595703399419">
+    <state x="460" y="110" key="FileChooserDialogImpl" timestamp="1595778350485">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="460" y="110" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1595703399419" />
-    <state width="1317" height="182" key="GridCell.Tab.0.bottom" timestamp="1595703777186">
+    <state x="460" y="110" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1595778350485" />
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom" timestamp="1595778851646">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
-    <state width="1317" height="182" key="GridCell.Tab.0.center" timestamp="1595703777186">
+    <state width="1317" height="182" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
+    <state width="1317" height="182" key="GridCell.Tab.0.center" timestamp="1595778851646">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
-    <state width="1317" height="182" key="GridCell.Tab.0.left" timestamp="1595703777186">
+    <state width="1317" height="182" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
+    <state width="1317" height="182" key="GridCell.Tab.0.left" timestamp="1595778851646">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
-    <state width="1317" height="182" key="GridCell.Tab.0.right" timestamp="1595703777186">
+    <state width="1317" height="182" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
+    <state width="1317" height="182" key="GridCell.Tab.0.right" timestamp="1595778851646">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595703777186" />
+    <state width="1317" height="182" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1595778851646" />
     <state x="181" y="14" key="SettingsEditor" timestamp="1595744393661">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="181" y="14" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1595744393661" />
-    <state x="272" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595744443077">
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595751129462">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="102" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1595744443077" />
+    <state x="272" y="102" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1595751129462" />
     <state x="489" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595744333325">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
